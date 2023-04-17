@@ -1,6 +1,16 @@
 /*estilos gerais*/
 *{
+   box-sizing: border-box;
    color: #25282E;
+}
+
+body{
+   font-family: Arial, Verdana, Tahoma, Sans-Serif;
+
+   color: #333333;
+
+   font-size: 16px;
+
 }
 
 a, i {
@@ -23,7 +33,7 @@ a, i {
    background-color: #25282E;
    color: #fff;
    padding: 7px 18px;
-   border-radius: 0;
+   border-radius: 10%;
 
 }
 
@@ -50,9 +60,11 @@ a, i {
 }
 
 #logo {
+   object-fit: contain;
    width: 40px;
    margin-right: 15px;
 }
+
 
 /*navbar*/
 
@@ -77,6 +89,7 @@ a, i {
    height:400px;
    background-image: url('../img/IMG_20170521_184547_803.jpg');
    background-size: 100% 110%;
+   border-radius: 5%;
    margin-bottom: 30px;
    position: relative;
 }
@@ -91,18 +104,26 @@ a, i {
 /*gallery*/
 
 #img1 {
+   object-fit: cover;
+   border-radius: 5%;
    background-image: url('../img/20170325_160645.jpg');
 }
 
 #img2 {
+   object-fit: cover;
+   border-radius: 5%;
    background-image: url('../img/20170720_221440.jpg');
 }
 
 #img3 {
+   object-fit: cover;
+   border-radius: 5%;
    background-image: url('../img/20171001_115843.jpg');
 }
 
 #img4 {
+   object-fit: cover;
+   border-radius: 5%;
    background-image: url('../img/20170720_221440.jpg');
 }
 
@@ -127,6 +148,21 @@ a, i {
 #img3 ,
 #img4 {
    background-size: 100% 150%;
+}
+
+#disc {
+   margin: 5px 25px 5px 25px;
+}
+
+#history {
+ width: 10%;
+}
+
+#banho {
+   object-fit: cover;
+   border-radius: 2%;
+   width: 600px;
+   right: 100%;
 }
 
 /*footer*/
