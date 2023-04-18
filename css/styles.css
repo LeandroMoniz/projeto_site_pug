@@ -4,6 +4,21 @@
    color: #25282E;
 }
 
+img {
+   width: 550px;
+   right: 100px;
+   object-fit: cover;
+   border-radius: 5%;
+}
+
+span {
+   text-align: justify;
+}
+
+p {
+   text-align: justify;
+}
+
 body{
    font-family: Arial, Verdana, Tahoma, Sans-Serif;
 
@@ -87,7 +102,7 @@ a, i {
 
 .main-image {
    height:400px;
-   background-image: url('../img/IMG_20170521_184547_803.jpg');
+   background-image: url('../img/capa.jpg');
    background-size: 100% 110%;
    border-radius: 5%;
    margin-bottom: 30px;
@@ -103,51 +118,22 @@ a, i {
 }
 /*gallery*/
 
-#img1 {
-   object-fit: cover;
-   border-radius: 5%;
-   background-image: url('../img/20170325_160645.jpg');
-}
-
-#img2 {
-   object-fit: cover;
-   border-radius: 5%;
-   background-image: url('../img/20170720_221440.jpg');
-}
-
-#img3 {
-   object-fit: cover;
-   border-radius: 5%;
-   background-image: url('../img/20171001_115843.jpg');
-}
-
-#img4 {
-   object-fit: cover;
-   border-radius: 5%;
-   background-image: url('../img/20170720_221440.jpg');
-}
-
-
 #gallery-container h1 {
    text-align: center;
+   margin-bottom: 60px 
 }
-
-#gallery-container h1, 
+ 
 #gallery-container .col-md-6,
 #gallery-container .col-12 {
-   margin-bottom: 50px;
+   margin-bottom: 50px ;
+}
+#gallery-container .col-md-5 {
+   margin-bottom: 5px ;
 }
 
 .small-image-container {
    height: 250px;
    margin-bottom: 20px;
-}
-
-#img1 ,
-#img2 ,
-#img3 ,
-#img4 {
-   background-size: 100% 150%;
 }
 
 #disc {
