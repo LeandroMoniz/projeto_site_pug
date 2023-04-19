@@ -21,11 +21,8 @@ p {
 
 body{
    font-family: Arial, Verdana, Tahoma, Sans-Serif;
-
    color: #333333;
-
    font-size: 16px;
-
 }
 
 a, i {
@@ -116,7 +113,6 @@ a, i {
    left: 25px;
    bottom: 25px;
 }
-/*gallery*/
 
 #gallery-container h1 {
    text-align: center;
@@ -127,7 +123,7 @@ a, i {
 #gallery-container .col-12 {
    margin-bottom: 50px ;
 }
-#gallery-container .col-md-5 {
+#gallery-container .col-lg-5 {
    margin-bottom: 5px ;
 }
 
@@ -178,4 +174,13 @@ footer p{
 
 a:hover i {
    color: #c1b696;
+}
+
+@media (max-width: 1024px) {
+   img {
+      width: 450px;
+      right: 100px;
+      object-fit: cover;
+      border-radius: 5%;
+   }
 }
